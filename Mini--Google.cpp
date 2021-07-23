@@ -325,7 +325,7 @@ void Food::getFood_places(string s,int count)
         if(n>0){
     cout<<"Sector "<<returnsector()<<"\n";}
         for(int i=0;i<n;i++){
-        cout<<food_places[i]<<"\t"<<food_places_address[i]<<"\t"<<food_services[i]<<"\t"<<food_website[i]<<"\t"<<food_phone[i]<<"\t"<<food_rating[i]<<endl;
+        cout<<food_places[i]<<"\n"<<food_places_address[i]<<"\n"<<food_services[i]<<"\n"<<food_website[i]<<"\n"<<food_phone[i]<<"\n"<<food_rating[i]<<endl<<endl;
         }
     }
 class Search:public Tourist,  public Hospital,public Hotels,public Food,public virtual Google,public education
